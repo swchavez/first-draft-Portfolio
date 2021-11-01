@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Connect</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Stephen Chavez Portfolio">
+    <meta name="description" content="Connect with me">
+    <meta name="author" content="Stephen Chavez">
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script>
+$(document).ready(function (){
+  $('#TennisForm').validate({
+    rules: {
+      name:{
+        required: true,
+        minlength: 5
+      },
+      tel: {
+        required: true,
+        minlength: 10,
+        digits: true
+      },
+      email: {
+        required: true
+      },
+      messages: {
+        name:{
+          required:"your name is required",
+          minlength:"minimum length 5",
+        },
+        tel: {
+          required: "must include telephone",
+          minlength:"must be 10 digits",
+          digits: "must be numeric",
+        },
+        email: {
+          required:"must provide email",
+        }
+      },
+      submitHandler: function(form) {
+        form.submit();
+      }
+    }
+  });
+});
+</script>
+</head>
+
+<body>
+
+
+  <nav>
+    <div id="menulist">
+          <table class ="menu">
+          <col style="width:15%"><col style="width:15%"><col style="width:15%">
+          <td> <a href= "index.html"> HOME </a> </td>
+          <td> <a href= "Portfolio.html"> PORTFOLIO </a> </td>
+          <td> <a href= "Connect.html"> CONNECT </a> </td>
+        </table>
+      </div>
+      </nav>
+      <div id="left"> </div>
+  </nav>
+
+    <div id="left"> </div>
+
+    <div id="main"> <h1> Connect With Me! </h1>
+      <h2> Stephen William Glenn Chavez - 901.826.0371 - swchavez97@gmail.com </h2>
+      <p> Thanks for checking out my page! Feel free to reach out and contact me! Also, check out the links below to see my social media!
+      </p>
+
+
+      <form id="TennisForm" action="AddToMailList.php" method="post">
+<table>
+<tr> <td>
+      <label for"name">Name: </label>
+      <input type="text" name=name" id=name" autofocus="autofocus">
+</tr> </td>
+
+<tr> <td>
+      <label for"Tel">Tel: </label>
+      <input type="tel" name="tel" id="tel">
+</tr> </td>
+
+<tr> <td>
+      <label for"Email">Email: </label>
+      <input type="email" name="email" id="email">
+</tr> </td>
+
+<tr> <td>
+      <label for"date">date: </label>
+      <input type="date" name="date" id="date">
+</tr> </td>
+
+</table>
+<center>
+      <input type="Submit"value="Submit">
+      <input type="Reset"value="Reset">
+      </form>
+    </p>
+
+    <p>
+    <a href="https://www.linkedin.com/in/stephen-chavez/" width="300" target="_blank">
+      <img src="assets\LinkedIn.png" alt="Linkedin" width="100"> </a>
+
+    <a href="https://twitter.com/ChavezStephen" width="300" target="_blank">
+      <img src="assets\Twitter.png" alt="Twitter" width="100"> </a>
+
+    <a href="https://www.facebook.com/stephenwc" width="300" target="_blank">
+      <img src="assets\Facebook.png" alt="Facebook" width="100"> </a>
+
+    <a href="https://swchavez.wordpress.com/" width="300" target="_blank">
+      <img src="assets\Wordpress.png" alt="Facebook" width="100"> </a>
+    </p>
+
+    </div>
+
+    <footer> <center>
+      <a href= "index.html"> HOME | </a>
+      <a href= "Portfolio.html"> PORTFOLIO | </a>
+      <a href= "Connect.html"> CONNECT | </a>
+    </footer>
+
+  </div>
+
+
+</body>
+
+</html>

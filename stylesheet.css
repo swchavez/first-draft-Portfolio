@@ -1,0 +1,48 @@
+header { background-color: red; }
+nav { background-color: white; margin-left: 200px;}
+
+h1 { font-family: trebuchet MS;
+color: #004f0a;
+font-weight: bold;
+font-size: 2.5em;
+}
+
+p{ font-family: trebuchet MS;
+color: green;
+font-size: 1em
+}
+li{ font-family: trebuchet MS;
+color: black;
+font-size: 1em
+text-align: left;
+}
+
+th, td {padding: 10px; border: 1px solid darkgrey; } td {text-align: center;}
+table {border: 2px solid darkgreen; border-spacing:10px; margin: 0 auto;}
+
+
+.menu td {border: 2px solid darkgreen;}
+#menulist {
+	background-color: #d3d3d3;
+}
+
+
+#container{
+	max-width: 960px; margin: 0 auto; background-color: #f9f9f9 ;
+	}
+
+#left {
+	float:left; width: 20%; background-color: ;
+	}
+
+#main {
+	float:right; width: 80%; background-color: #white ;
+	}
+
+footer {
+	clear:both; background-color: lightGrey; font-weight: bold; font-size: 1.1em; margin-left: 150px;
+	}
+
+.centertext {
+	text-align: center;
+	}
