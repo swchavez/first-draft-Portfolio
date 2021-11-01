@@ -28,7 +28,7 @@ table {border: 2px solid darkgreen; border-spacing:10px; margin: 0 auto;}
 
 
 #container{
-	max-width: 960px; margin: 5 auto; background-color: #black ;
+	max-width: 960px; margin: 0 auto; background-color: #f9f9f9 ;
 	}
 
 #left {
