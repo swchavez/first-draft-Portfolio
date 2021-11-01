@@ -28,7 +28,7 @@ table {border: 2px solid darkgreen; border-spacing:10px; margin: 0 auto;}
 
 
 #container{
-	max-width: auto; margin: 75px; background-color: #f9f9f9 ;
+	max-width: auto; margin: 75px; background-color: ;
 	}
 
 #left {
@@ -37,7 +37,7 @@ table {border: 2px solid darkgreen; border-spacing:10px; margin: 0 auto;}
 
 
 #main {
-	float:right; width: auto; background-color: #white ;
+	float:right; width: auto; background-color: ;
 	}
 
 footer {
